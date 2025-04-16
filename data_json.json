@@ -1,0 +1,93 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "1170459",
+        "opensearch:startIndex": "0",
+        "opensearch:itemsPerPage": "1",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "AFFILCOUNTRY(\"Russian Federation\") AND PUBYEAR > 2013",
+            "@startPage": "0"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=1&query=AFFILCOUNTRY%28%22Russian+Federation%22%29+AND+PUBYEAR+%3E+2013",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=1&query=AFFILCOUNTRY%28%22Russian+Federation%22%29+AND+PUBYEAR+%3E+2013",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "next",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=1&count=1&query=AFFILCOUNTRY%28%22Russian+Federation%22%29+AND+PUBYEAR+%3E+2013",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "last",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=4999&count=1&query=AFFILCOUNTRY%28%22Russian+Federation%22%29+AND+PUBYEAR+%3E+2013",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218781978"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218781978?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218781978&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218781978&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218781978",
+                "dc:identifier": "SCOPUS_ID:85218781978",
+                "eid": "2-s2.0-85218781978",
+                "dc:title": "STRENGTHENING THE BWC: EURASIAN OUTLOOK",
+                "dc:creator": "Malygina A.A.",
+                "prism:publicationName": "World Economy and International Relations",
+                "prism:issn": "01312227",
+                "prism:volume": "69",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "66-75",
+                "prism:coverDate": "2025-12-25",
+                "prism:coverDisplayDate": "25 December 2025",
+                "prism:doi": "10.20542/0131-2227-2025-69-1-66-75",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Saint Petersburg State University",
+                        "affiliation-city": "Saint Petersburg",
+                        "affiliation-country": "Russian Federation"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100787098",
+                "openaccess": "0",
+                "openaccessFlag": false
+            }
+        ]
+    }
+}
